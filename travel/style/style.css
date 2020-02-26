@@ -1,0 +1,46 @@
+body {
+	background-color: #00bb00;
+	margin: 20px;
+}
+h1, h2 {
+	color: white;
+	text-align: center;
+}
+h3 {
+	background-color: orange;
+	color: black;
+	text-align: center;
+	margin: 30px;
+}
+p {
+	font-family: verdana;
+	font-size: 15px;
+	text-align: justify;
+}
+#p1 {
+	margin-left: 10%;
+	margin-right: 10%;
+}
+#p2 {
+	margin-left: 10%;
+	margin-right: 10%;
+}
+#stronagazeta {
+	text-align: right;
+	margin: 20px;
+}
+.p3 {
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.p4 {
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.p5 {
+	margin-left: 10%;
+	margin-right: 10%;
+}
+a {
+	font-size: 30px;
+}
