@@ -1,0 +1,97 @@
+body {
+	background-color: #00bb00;
+	min-width:300px;
+}
+h1, h2 {
+	color: white;
+	text-align: center;
+}
+div {
+	font-family: verdana;
+	font-size: 15px;
+	text-align: justify;
+}
+#header {
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #707070;
+	border: 3px rgb(70,70,70) solid;
+	border-radius: 30px;
+	padding:10px;
+	text-align:center;
+	margin: 10px;
+}
+
+#article {
+	width: 95%;
+	height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.dvi {
+	position:relative;
+	padding: 2px;
+	float: left;
+	width: 31%;
+	height: 45%;
+	text-align: center;
+	color: black;
+	background-color:blue;
+	border: 5px solid;
+	border-color: #00bb00;
+	border-radius: 25px;
+}
+.title:hover {
+	color:black;
+}
+.name:hover {
+	color:black;
+}
+.title {
+	color:white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.name {
+	color:white;
+	font-size: 12px;
+	position: absolute;
+	bottom: 0%;
+	right: 5%;
+}
+pre {
+	font-family:verdana;
+}
+.dvi:hover {
+	background-color:purple;
+	border-color:black;
+}
+.buton{
+	position:absolute;
+	left: 50%;
+	font-size: 20px;
+	width: 560px;
+	margin: 10px;
+	background-color:yellow;
+	border-radius: 30px;
+	border-width: 3px;
+	border-color:brown;
+	transform: translate(-50%, 0%);
+}
+.buton:hover{
+	background-color: lightyellow;
+}
+#footer {
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #707070;
+	border: 3px rgb(70,70,70) solid;
+	border-radius: 30px;
+	padding:10px;
+	text-align:center;
+}
