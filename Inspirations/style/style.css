@@ -1,0 +1,149 @@
+h1, h3 {
+	margin: 0;
+	padding: 0;
+}
+.link{
+	width:20%;
+}
+.inspiracja{
+	width:20%;
+}
+.opis{
+	width:60%;
+}
+div.nawcontainer{
+	height:40px;
+	position:relative;
+}
+div.naw{
+	color:#444444;
+	border: 3px #111111 groove;
+	position:absolute;
+	left:50%;
+	top:50%;
+	transform:translate(-50%,-50%);
+	height:30px;
+	width:80%;
+	float:left;
+	text-align:center;
+}
+div.naw:hover{
+	color:#fff;
+	text-decoration: underline;
+}
+div.naw:active{
+	color:#f33;
+	text-decoration: underline wavy;
+}
+div.naw:visited{
+	color:#888;
+}
+nav.naw {
+	background-color:#009900;
+	float:left;
+	margin:0;
+	padding:0;
+	width:30%;
+	height:1000px;
+	position:relative;
+}
+/*active hover visited link*/
+
+body {
+	position: relative;
+	font-family: verdana;
+	height: 1100px;
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	padding:0;
+	font-size:120%;
+	margin:0;
+	height: 50px;
+	text-align:center;
+	color:#ffffff;
+	font-family:century;
+	background-color: #009900;
+}
+
+nav.heder{
+	width:100%;
+	height:35px;
+}
+div.linkcontainer{
+	background: repeating-linear-gradient(#009900,yellow);
+	width:25%;
+	position:relative;
+	height:100%;
+	float:left;
+}
+div.heder:visited{
+	color:#666666;
+	background-color:#333333;
+}
+div.heder:hover{
+	color:#111111;
+	background-color:#999999;
+}
+div.heder:active{
+	color:red;
+	background-color:yellow;
+}
+div.heder{
+	color:#999999;
+	border:groove #555555;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	font-family:Century gothic;
+	background-color:#333333;
+	height:90%;
+	width:95%;
+	float:left;
+	text-align:center;
+}
+
+article{
+	float:left;
+	margin:0;
+	padding:0;
+	width:70%;
+}
+th{
+	padding:5px;
+	font-size:120%;
+	border:3px black solid;
+	border-collapse: collapse;
+}
+tr {
+	height: 200px;
+}
+td {
+	padding:5px;
+	border-collapse: collapse;
+	background-color: #00bb00;
+	color: white;
+	border: 3px solid black;
+}
+table{
+	border-collapse: collapse;
+	background-color: yellow;
+	text-align:center;
+	width:100%;
+	border: 3px solid black;
+}
+footer{
+	font-size:120%;
+	font-family:century gothic;
+	text-align:center;
+	position:absolute;
+	width:100%;
+	margin:0;
+	bottom:0%;
+	height:30px;
+	background-color:black;
+	color: yellow;
+}
