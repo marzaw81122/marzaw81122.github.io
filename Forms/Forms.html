@@ -1,0 +1,74 @@
+<!Doctype html>
+<html lang="pl">
+	<head>
+		<meta charset="utf-8" />
+		<title>English course for beginners</title>
+		<link rel="stylesheet" href="style/style.css" type="text/css"/>
+		<link rel="icon" href="icon/forms.ico" type="image/x-icon"/>
+		<meta name="description" content="If you are beginner in English, this course is for you">
+		<meta name="keywords" content="English,Course">
+		<meta name="author" content="Marek Zawadzki">
+	</head>
+	<body>
+		<header><h1>English course for beginners</h1></header>
+		<article>
+			<div>
+				<p id="p">This course is for people, who are absolutely new to english. In this course you will learn how to ask about the time, weather, name or a pet. <br>Registration is open until July 1, 2020. <br>The course will be held electronically via the Microsoft Teams platform. <br>The cost is only PLN 500 (10x50 PLN)</p>
+			</div>
+			<div id="welcomeText"><form onsubmit="changetext()" method="post" id="myForm">
+				<label for="name">First name</label><br>
+				<input class="text" type="text" id="fname" name="fname"><br><br>
+				
+				<label for="surname">Surname</label><br>
+				<input class="text" type="text" id="sname" name="sname"><br><br>
+				
+				<label for="email">E-mail address</label><br>
+				<input class="text" type="email" id="email" name="email"><br><br>
+				
+				<label for="postcode">Post code</label><br>
+				<input class="text" type="text" cols="2" id="pcode1" name="pcode">
+				<label for="postcode">-</label>
+				<input class="text" type="text" id="pcode2" name="pcode"><br><br>
+				
+				<label for="gender">Gender</label><br>
+				<center><div class="gender">
+					<label class="gender" for="male">Male
+						<input class="gender" type="radio" id="male" name="gender">
+					</label><br>
+					<label class="gender" for="female">Female
+						<input class="gender" type="radio" id="female" name="gender">
+					</label><br>
+					<label class="gender" for="other">Other
+						<input class="gender" type="radio" id="other" name="gender">
+					</label>
+				</div></center><br></br>
+				<label for="city">City:</label>
+				<select class="city" name="city">
+					<option class="city" value="Warszawa">Warszawa</option>
+					<option class="city" value="Poznań">Poznań</option>
+					<option class="city" value="Kraków">Kraków</option>
+					<option class="city" value="Wrocław">Wrocław</option>
+				</select><br><br>
+				
+				<label for="questions">Optional questions</label><br>
+				<textarea class="text" type="textarea" Cols="40" Rows="10" id="questions" name="questions"></textarea><br>
+				
+				<input type="submit" onclick="name()" id="submit" value="Submit">
+				<input type="reset" id="reset" value="Reset">
+			</form></div>
+			<script>
+				function changetext() {
+				var name = document.getElementById("myForm").fname.value;
+				var email = document.getElementById("myForm").email.value;
+				var welcome = "Thanks for sending form, " + name;
+				document.getElementById("welcomeText").innerHTML = welcome;
+				document.getElementById("p").innerHTML = "In few days you should receive an e-mail to: " + email + " with link to the meetings";
+				}
+			</script>
+		</article>
+		<footer>
+			<h3>Autor strony: Marek Zawadzki 1pta</h3>
+		</footer>
+	</body>
+</html>
+
